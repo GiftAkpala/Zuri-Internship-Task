@@ -1,0 +1,14 @@
+header {
+    display: flex;
+}
+h1 {
+    margin-left: 30px;
+}
+nav {
+    position: relative;
+    left: 200px;
+}
+footer {
+    text-align: right;
+    margin-right: 100px;
+}
