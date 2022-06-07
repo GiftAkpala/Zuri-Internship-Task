@@ -5,7 +5,7 @@ body {
   background-color: aliceblue;
   font-family: 'Poppins', sans-serif;
 }
-header {
+nav {
   position: absolute;
   right: 50px;
 }
@@ -27,10 +27,10 @@ header {
   color: #2980b9;
 }
 img {
-  border-radius: 100px;
+  border-radius: 20px;
 }
 
-.btn, .r-btn {
+.btn {
   position: absolute;
   right: 100px;
   margin-top: 10px;
@@ -50,7 +50,7 @@ img {
   text-decoration: none;
 }
 
-.btn:hover, .r-btn:hover {
+.btn:hover {
   background: #2980b9;
   background-image: -webkit-linear-gradient(top, #2980b9, #34d9d9);
   background-image: -moz-linear-gradient(top, #2980b9, #34d9d9);
@@ -109,15 +109,16 @@ img {
   line-height: 1.5;
 }
 
-#submit {
+#submit, .r-btn {
   position: relative;
-  left: 76%;
+  left: 78%;
   padding: 5px;
   border-radius: 5px;
+  margin-top: 10px;
   background-color: black;
   color: white;
 }
-#submit:hover  {
+#submit:hover, .r-btn:hover  {
   background-color: #2980b9;
 }
 label {
