@@ -1,15 +1,23 @@
-
 body {
   margin: 0;
   padding: 10px;
   background-color: aliceblue;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  height: 100px;
+  line-height: 1.1;
 }
 nav {
   position: absolute;
   right: 50px;
+  margin-top: 0%;
 }
-#register-link { 
+.flex {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+#register-link {
   font-size: 20px;
   color: blue;
   margin-right: 10px;
@@ -59,6 +67,7 @@ img {
   background-image: linear-gradient(to bottom, #2980b9, #34d9d9);
   text-decoration: none;
 }
+
 .back {
   text-decoration: none;
   background-color: black;
@@ -71,16 +80,16 @@ img {
   background-color: #2980b9;
 }
 .registration {
-  width: 60%;
+  max-width: 500px;
   margin: auto;
- padding: 20px;
+  padding: 20px;
   line-height: 1.5;
   margin-top: 20px;
   background: white;
   border-radius: 25px;
 }
 .login-form {
-  max-width: 50%;
+  max-width: 500px;
   margin: auto;
   padding: 30px;
   line-height: 1.5;
@@ -88,45 +97,42 @@ img {
   background: white;
   border-radius: 25px;
 }
-#l-email, #l-password { 
+#l-email,
+#l-password {
   line-height: 2;
 }
 #sign-in {
   position: relative;
   left: 80%;
   line-height: 2;
-
 }
 .contact-form {
   background-color: white;
-  max-width: 50%;
+  max-width: 500px;
   margin: 80px auto;
   padding: 20px;
   border-radius: 20px;
   font-weight: bold;
 }
-#Name, #email, #message {
+#Name,
+#email,
+#message {
   line-height: 1.5;
 }
 
-#submit, .r-btn {
+#submit,
+.r-btn {
   position: relative;
   left: 78%;
   padding: 5px;
   border-radius: 5px;
-  margin-top: 10px;
   background-color: black;
   color: white;
 }
-#submit:hover, .r-btn:hover  {
+#submit:hover,
+.r-btn:hover {
   background-color: #2980b9;
 }
 label {
   font-weight: bold;
-}
-@media (max-width: 768px) {
-    .contact-form, .login-form, .registration {
-display: flex;
-flex-direction: column;
-}
 }
